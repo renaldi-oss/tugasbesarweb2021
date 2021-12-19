@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+.panel{
+    padding: 20px;
+    background-color: #EEE;
+    margin: 0;
+}
+.panel-login{
+    padding: 20px;
+    width: 200px;
+    margin: 50px 0 0 555px;
+    background-color: #EEE;
+    border: 5px ridge;
+    border-radius: 10px;
+}
+input[type='text'],input[type='password']{
+    padding: 10px;
+}
+input[type='submit']{
+    padding: 10px;
+    background-color: #EEE;
+    border-radius: 5px;
+}
+.logo{
+    margin: 50px 0 0 0;
+}

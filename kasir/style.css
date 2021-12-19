@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+input[type='text'],
+input[type='password'],
+input[type='number']{
+    padding: 8px;
+    width: 230px;
+}
+input[type='submit']{
+    padding: 10px;
+    background-color: #EEE;
+    border-radius: 5px;
+}
+select{
+    padding: 8px;
+    width: 250px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    /* border-left: 2px solid; */
+    padding: 0.5rem 1rem;
+}
+nav a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-left: 2px solid black;
+    padding: 0.5rem 1rem;
+    transition: .2s ease;
+}
+
+.table-keranjang{
+    margin-right: 50px;
+    width: 850px;
+}
+.table-keranjang td, th{
+    padding: 5px;
+}
+.table-keranjang th{
+    background-color: #BBB;
+}
+.table-keranjang a{
+    text-decoration: none;
+    color: #000;
+}
+.table-keranjang td.kurang a{
+    text-decoration: none;
+    color: orange;
+}
+.table-keranjang td.kurang a:hover{
+    margin: 0;
+    text-decoration: none;
+    color: orange;
+    text-decoration: underline;
+}
+.table-keranjang td.hapus a{
+    text-decoration: none;
+    color: red;
+}
+.table-keranjang td.hapus a:hover{
+    margin: 0;
+    text-decoration: none;
+    color: red;
+    text-decoration: underline;
+}
+.table-keranjang td.bersih a{
+    text-decoration: none;
+    color: red;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+.table-keranjang td.bersih a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 3px;
+    transition: .2s ease;
+}
+.table-keranjang td.belanja a{
+    text-decoration: none;
+    color: green;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+.table-keranjang td.belanja a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 3px;
+    transition: .2s ease;
+}
+.form-beli{
+    margin-left: 20px;
+    padding: 50px 50px 10px 10px;
+    border-right: 10px solid;
+    background-color: #BBB;
+}
+.form-header{
+    border-bottom: 2px solid;
+}

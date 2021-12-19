@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+input[type='text'],
+input[type='password'],
+input[type='number']{
+    padding: 8px;
+    width: 230px;
+}
+input[type='date']{
+    padding: 8px;
+    width: 230px;
+    font-size: 14px;
+}
+input[type='submit']{
+    padding: 10px;
+    background-color: #EEE;
+    border-radius: 5px;
+}
+select{
+    padding: 8px;
+    width: 250px;
+}
+nav{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #0bf;
+    margin-bottom: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    padding: 0.5rem 1rem;
+    margin-right: 10px;
+    transition: .2s ease;
+}
+nav a:hover{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    background-color: #299fca;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0.5rem 2rem;
+    margin-right: 10px;
+    transition: .2s ease;
+}
+.judul-nav{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 5px solid black;
+}
+.container{
+    width: 80%;
+    margin: 0 135px;
+}
+.container table{
+    width: 100%;
+}
+.panel-index{
+    text-align: center;
+    padding: 20px;
+    border: 5px dashed;
+    margin: 0 25%;
+}
+.search{
+    float: right;
+    margin-bottom: 20px;
+}
+.table-data table td, th{
+    padding: 10px;
+}
+.table-data th{
+    background-color: #0bf;
+}
+.table-data td.hapus a{
+    text-decoration: none;
+    color: red;
+}
+.table-data td.hapus:hover{
+    text-decoration: none;
+    background-color: red;
+    transition: .2s ease;
+}
+.table-data td.hapus a:hover{
+    text-decoration: none;
+    color: white;
+    transition: .2s ease;
+}
+.table-data td.edit a{
+    text-decoration: none;
+    color: blue;
+}
+.table-data td.edit:hover{
+    text-decoration: none;
+    background-color: blue;
+    transition: .2s ease;
+}
+.table-data td.edit a:hover{
+    text-decoration: none;
+    color: white;
+    transition: .2s ease;
+}
+.tambah-baru{
+    text-decoration: none;
+    color: green;
+    padding: 10px 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.tambah-baru:hover{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid green;
+    border-radius: 3px;
+    background-color: green;
+    transition: .2s ease;
+}
+.print{
+    text-decoration: none;
+    color: blue;
+    padding: 5px 10px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.print:hover{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    background-color: blue;
+    transition: .2s ease;
+}
+.panel-input{
+    width: 80%;
+    margin: 0 135px;
+    text-align: center;
+}
+.panel-input input{
+    width: 500px;
+}
+.panel-input textarea{
+    width: 500px;
+    padding: 8px;
+}
+.panel-input select{
+    width: 520px;
+    padding: 8px;
+    font-size: 14px;
+}
+.judul-input{
+    border-bottom: 5px solid;
+    padding-bottom: 10px;
+}
+.laporan{
+    width: auto;
+    text-align: center;
+    margin: 0 50px;
+}
+.laporan table{
+    width: 100%;
+    text-align: center
+}
+.laporan th{
+    background-color: #BBB;
+}
+.header-lap{
+    border-bottom: 5px solid;
+    padding-bottom: 10px;
+}
